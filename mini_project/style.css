@@ -1,0 +1,218 @@
+.intro_text h3 {
+    padding-top: 160px;
+    padding-bottom: 50px;
+    color: rgb(29, 228, 228);
+}
+
+navbar {
+    background-color: #BC0001;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.intro_text p {
+    padding-bottom: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.btn-info {
+    padding: 5px 5px;
+    min-width: 250px;
+    color: aliceblue;
+    font-size: 19px;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+
+body {
+    background: #FFF3CC;
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: .75rem;
+  }
+
+.img-logo {
+    margin-left: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+
+footer {
+    background-color: #BC0001;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    
+}
+
+/* css testimoni */
+.testimonial-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .testimonial-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .testimonial-name {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .rating {
+    color: orange;
+    display: inline-block;
+  }
+  .star {
+    margin-right: 5px;
+  }
+  
+  .testimonial-box{
+    background-color:  #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2.text-center:nth-of-type(2) {
+      margin-top: -10px;
+    }
+  
+    .testimonial-wrapper {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    
+    .testimonial-inner {
+      display: inline-block;
+    }
+    
+    .testimonial-box {
+      margin-left: 10px;
+      display: inline-block;
+      width: 300px;
+      white-space: normal;
+      vertical-align: top;
+    }
+    
+/*FAQ*/
+@media screen and (min-width: 810px) {
+    .header{
+        display: flex;
+        gap: 1rem;
+        border-radius: 24px;
+    }
+    .pertanyaan-umum, .cara-pembayaran{
+        border-radius: 24px;
+    }
+
+}
+@media screen and (min-width: 1250px){
+    .header{
+        justify-content: space-around;
+    }
+    .text-header{
+        width: 70%;
+    }
+    .text-header p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 60%;
+    }
+}
+
+navbar {
+    background-color: #BC0001;
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  .intro_text p {
+    padding-bottom: 20px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: black;
+  }
+  
+#menu {
+  margin-bottom: 100px;
+}
+
+.card {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(7, 7, 7, 0.3);
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+  height: 400px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+#testimoni {
+  margin-bottom: 100px;
+}
+
+  footer {
+    background-color: #BC0001;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.animated-image {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
